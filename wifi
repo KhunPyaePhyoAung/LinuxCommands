@@ -1,0 +1,7 @@
+sudo lshw -class network
+cd /etc/pm/sleep.d
+sudo touch config
+
+add to file
+SUSPEND_MODULES= "BCM43142"
+echo "options BCM43142 fwlps=N" or sudo tee /etc/modprobe.d/BCM43142.conf

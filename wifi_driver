@@ -1,0 +1,5 @@
+sudo apt install git build-essentisl dkms
+git clone -b extended https://github.com/lwfinger/rtlwifi_new.git
+sudo dkms add ./rtlwifi_new
+sudo dkms install rtlwifi-new/0.6
+sudo  modprobe -r rtl8723de && sudo modprobe rtl8723de

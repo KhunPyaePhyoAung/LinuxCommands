@@ -1,0 +1,5 @@
+sudo update-alternatives --install /usr/bin/java java /home/khun/Desktop/JavaEnviros/jdk-11.0.7/bin/java 2
+sudo update-alternatives --install /usr/bin/javac javac /home/khun/Desktop/JavaEnviros/jdk-11.0.7/bin/javac 2
+sudo update-alternatives --install /usr/bin/jar jar /home/khun/Desktop/JavaEnviros/jdk-11.0.7/bin/jar 2
+
+sudo update-alternatives --config java
