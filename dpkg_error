@@ -1,0 +1,2 @@
+sudo rm /var/lib/dpkg/lock-frontend
+sudo dpkg --configure -a
