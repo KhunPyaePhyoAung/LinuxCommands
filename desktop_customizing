@@ -1,0 +1,5 @@
+Set new plymouth
+	sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/mytheme/mytheme.plymouth 123
+	sudo update-alternatives --config default.plymouth
+	sudo update-initramfs -u
+	sudo reboot
