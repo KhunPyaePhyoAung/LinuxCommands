@@ -1,0 +1,21 @@
+Install TLP
+	sudo apt-get install tlp
+
+
+	tlp => apply laptop power saving settings
+	tlp-stat => displays all power saving settings
+	tlp-pcilist => displays PCI(e) device data
+	tlp-usblist => for viewing USB devices data
+
+Check if it running under SystemD using
+	sudo systemctl status tlp
+
+
+	sudo tlp start
+	sudo tlp-stat (show all power settings)
+	sudo tlp-stat -s (show system information)
+	sudo tlp-stat -c (show configuration)
+	sudo tlp-stat -b (show battery information)
+	sudo tlp-stat -p (show processor data)
+	sudo tlp-stat -w (show warning)
+	sudo tlp-stat -t (show temperature)
