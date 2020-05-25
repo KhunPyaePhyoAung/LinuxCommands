@@ -3,12 +3,15 @@ File Create-Read-Write
 	Create a file => touch file_name
 	Read a file => cat file_name
 	Wirte to file => nano file_name
+	
+	
 
 Archieving 
 
 	Extract file => tar -xzvf file_name.tar.gz
 	Extract to other dir => tar -xzvf file_name.tar.gz -C destination_directory/
 	Compress File => tar -czf file1 file2 folder1 folder2 folder3
+
 
 
 Fiel Permission (Read r , Write w , Execute x )
@@ -20,10 +23,19 @@ Fiel Permission (Read r , Write w , Execute x )
 	Disallow read permission => chmod -r file_name
 	Disallow write permission => chmod -w file_name
 	Disallow execute persmission => chmod -x file_name
+	
+	
 
 File copy,cut
 	
 	Copy a file => cp source_directory destination_directory
 	Cut a file => mv source_directory destination_directory
 	
+	
+	
+Installation
 
+	Add repository => sudo add-apt-repository <ppa_repository>
+	Installation => sudo apt install git (OR) sudo apt-get install git
+	Uninstallation => sudo apt remove git (OR) sudo apt --purge remove git
+	Fix broken install => sudo apt --fix-broken install
