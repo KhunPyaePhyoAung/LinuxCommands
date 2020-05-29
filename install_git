@@ -1,7 +1,0 @@
-install git 
-sudo add-apt-repository ppa:git-core/ppa
-sudo apt install git -y
-
-git config --global user.name ""
-git config --global user.email ""
-git congif --list

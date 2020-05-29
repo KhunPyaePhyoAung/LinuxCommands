@@ -1,0 +1,17 @@
+Playonlinux(Window Programmer Runner)
+	sudo apt install playonlinux
+	
+Git(VCS)
+	sudo apt install git
+	
+Brasero(CD Bunner)
+	sudo apt install brasero
+	
+TLP(Battery Saver)
+	sudo apt install tlp
+	
+MediaCodecs
+	sudo apt install ubuntu-restricted-extras
+	
+	
+
