@@ -13,5 +13,9 @@ TLP(Battery Saver)
 MediaCodecs
 	sudo apt install ubuntu-restricted-extras
 	
+Kazam(Screen Cast)
+	sudo apt install kazam
+	
+
 	
 
