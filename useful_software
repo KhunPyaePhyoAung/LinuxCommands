@@ -16,6 +16,8 @@ MediaCodecs
 Kazam(Screen Cast)
 	sudo apt install kazam
 	
-
+SpeedTest(Internet Speed Tester)
+	sudo apt install speeedtest-cli
+	
 	
 
