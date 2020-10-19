@@ -1,0 +1,19 @@
+Create file MyApplicaion.desktop in
+/home/username/.local/share/applicaions/ or /usr/share/applicaions/
+
+Type this in your terminal and click pointer on your applicaion to get WM Class
+xprop WM_Class
+
+
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Comment=Eclipse IDE for java developer
+Categories=IDE;TextEditor;
+Name=Eclipse SE
+Icon=/path-to-icon/icon.png
+Exec=/path-to-executable-file/exec-file
+StartupWMClass="Eclipse","Eclipse"
+StartupNotify=false
+Terminal=false
