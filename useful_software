@@ -19,5 +19,8 @@ Kazam(Screen Cast)
 SpeedTest(Internet Speed Tester)
 	sudo apt install speeedtest-cli
 	
+Startup Disk Creator
+	sudo apt install usb-creator-gtk
+	
 	
 
