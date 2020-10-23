@@ -22,5 +22,9 @@ SpeedTest(Internet Speed Tester)
 Startup Disk Creator
 	sudo apt install usb-creator-gtk
 	
+KDE Partition Manager
+	sudo apt install partitionmanager
+	
+	
 	
 
